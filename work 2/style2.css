@@ -1,0 +1,128 @@
+*{
+    font-family: "Roboto", sans-serif;
+  font-weight: 350;
+  font-style: normal;
+  color:#464646;
+  /* margin-left: 5px; */
+}
+.container{
+    max-width: max-content;
+    max-height: max-content;
+}
+p{
+    font-size: medium;
+}
+.parent{
+    border-bottom: 4px solid #bababc;
+    padding: 30px 0px;
+}
+.jobtitle{
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.name{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: capitalize;
+}
+img{
+    width: 100%;
+}
+.menu{
+    text-decoration: none;
+    color: rgba(145, 147, 148, 2);
+    padding-inline: 50px;
+    font-weight: 300;
+    font-size:smaller;
+    text-transform: capitalize;
+}
+.blocks{
+    text-align: center;
+    margin: 30px 500px;
+    padding: 5px;
+    border: 2px solid rgb(218, 218, 218);
+}
+.titlehead{
+    text-transform: uppercase;
+    font-weight:normal;
+}
+.subhead{
+    font-weight: 400;
+}
+.date{
+    color: #a6a6a7;
+    font-weight: 400;
+    font-size: medium;
+}
+.read{
+    border: 2px solid rgb(179, 181, 182);
+    padding: 4px 10px;
+    font-weight: 400;
+    font-size: small;
+    color: rgb(57, 57, 57);
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+.port{
+    /* border: 2px solid rgb(145, 147, 148); */
+    padding: 8px 21px;
+    padding-top: 10px;
+
+    background-color: rgb(233, 232, 232);
+    /* text-align: center; */
+}
+.work{
+    margin-top: 20px;
+
+}
+.workexp{
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.front{
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: medium;
+}
+.date2{
+    text-transform: capitalize;
+    font-size: small;
+    font-weight: 500;
+    color: rgb(6, 148, 122);
+}
+
+.cuurentdate{
+    border: 2px solid blue;
+}
+.date3{
+    /* border: 2px solid rgb(52, 52, 80); */
+    text-decoration: none;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 4px 8px ;
+    border-radius: 5px;
+    color: aliceblue;
+    text-transform: capitalize;
+    background-color: rgb(6, 148, 122);
+}
+.expe2{
+    margin-top: 70px;
+}
+.expe3{
+    margin-top: 70px;
+}
+.calendarmonth{
+    color:  rgb(6, 148, 122);
+    font-size: 15px;
+    height: 30px;
+    width: 10px;
+    padding-right: 3px;
+}
+.suitcase{
+    font-size: 30px;
+    padding-right: 30px;
+}

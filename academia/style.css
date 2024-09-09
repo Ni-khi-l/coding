@@ -1,0 +1,638 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    color: #999999;
+    font-weight: normal
+}
+
+.bgcolor {
+    background-color: #f7f7f7;
+}
+
+.bgleft {
+    background: url(../images/about.jpg.webp) no-repeat center;
+    background-size: cover;
+}
+
+.pad-abt {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.learn {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #1eb2a6;
+}
+
+.benefits {
+    line-height: 50px;
+}
+
+.box1 {
+    background-color: white;
+    margin-top: 30px;
+    box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09)
+}
+
+.title {
+    font-size: 16px;
+    text-transform: capitalize;
+    padding-top: 8px;
+}
+
+.subtitle {
+    font-size: 14px;
+
+
+}
+
+.box-content {
+    padding: 20px;
+}
+
+.icon {
+    font-size: 60px;
+    color: #1eb2a6;
+    padding-top: 10px;
+}
+
+/* third page  */
+.bg-img {
+    background: url(../images/bg_3.jpg.webp) no-repeat center;
+    background-size: cover;
+    /* height: 200px; */
+
+}
+
+.bg-shadow {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.preview {
+    padding-left: 60px;
+}
+
+.sub-title {
+    font-size: 16px;
+    padding-bottom: 50px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 40px;
+
+}
+
+.value {
+    margin-top: 100px;
+    padding-top: 15px;
+    /* padding-bottom: 20px; */
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+span.symbol {
+    font-size: 70px;
+    margin-top: 110px;
+    color: white;
+    padding-right: 2px;
+
+}
+
+/* third page end  */
+
+/* fourth page  */
+
+.author-icon {
+    margin-top: 7px;
+}
+
+h3.author {
+    margin-top: 10px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.author-pro {
+    border-radius: 50%;
+    background-image: url(../images/about.j122pg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+    margin-top: 5px;
+
+}
+
+.courses-title {
+    text-align: center;
+    text-transform: uppercase;
+    color: #1eb2a6;
+    font-size: 16px;
+    padding-top: 110px;
+}
+
+.courses-subtitle {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+.split-box {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09)
+}
+
+.col-content {
+    padding: 40px;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+.icon-sym {
+    font-size: 65px;
+    padding: 10px;
+    color: white;
+    border-radius: 50%;
+    background-color: #1eb2a6;
+    margin-top: 15px;
+    margin-left: -5px;
+}
+
+h2.heading {
+    margin-top: -40px;
+    text-transform: capitalize;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.rating-scale {
+    margin-top: 20px;
+    color: #1eb2a6;
+}
+
+span.rating {
+    font-size: 18px;
+
+}
+
+h3.rating {
+    padding-top: 2px;
+    /* margin-left: -20px; */
+    font-size: 15px;
+    margin-top: -2px;
+}
+
+
+
+span.special {
+    text-transform: none;
+    font-weight: 500;
+}
+
+h3.details {
+    font-size: 15px;
+    font-weight: 600;
+    color: #1eb2a6;
+}
+
+.offer {
+    background-color: #f7f7f7;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+h2.fee {
+    font-size: 16px;
+    text-align: center;
+    padding: 15px;
+    text-transform: capitalize;
+}
+
+.purchase {
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    margin-top: -40px;
+    border: 2px solid #1eb2a6;
+    padding: 10px;
+    text-align: center;
+}
+
+a.enroll {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #1eb2a6;
+    font-size: 12px;
+    font-weight: 400;
+
+
+}
+
+/* .scrollbar{
+    border-bottom: 2px solid #1eb2a6 ;
+    width: 50px;
+    margin-left: 550px;
+} */
+
+/* fourth page end */
+
+/* fifth page  */
+
+
+.bg-color-box {
+    background-color: white;
+    border-radius: 5px;
+    width: 210px;
+    height: 240px;
+    margin-left: -10px;
+    box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09)
+}
+
+.col-boxes {
+    margin-top: 70px;
+    margin-bottom: 80px;
+    /* padding-left: 70px; */
+
+
+}
+
+
+.icon-pos {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.small-icon {
+    font-size: 70px;
+    color: #1eb2a6;
+
+}
+
+.box-set {
+    margin-top: 10px;
+}
+
+
+.point-box {
+    text-decoration: none;
+    color: #1b1b1b;
+}
+
+.col-boxes-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 20px;
+    margin-top: -10px;
+}
+
+
+.border-box {
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+
+
+}
+
+.course-count {
+    font-size: 12px;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #1eb2a6;
+
+}
+
+/* fifth page end  */
+
+/* sixth page  */
+.profiles {
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 80px;
+    margin-top: 120px;
+    padding: 9px;
+    box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09)
+}
+
+.pro-image {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-image: url(../images/about.j122pg.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.pro-content {
+    margin-top: 50px;
+}
+
+h1.pro-name {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+h2.job-role {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #1eb2a6;
+}
+
+.job-des {
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 50px;
+}
+
+/* sixth end  */
+
+/* 7th page  */
+
+.blogs {
+    background-color: white;
+    overflow: hidden;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09)
+}
+
+.blogs-sec {
+    text-decoration: none;
+}
+
+.back-img {
+    background: url(../images/about.j122pg.webp) no-repeat center center;
+    background-size: cover;
+    height: 300px;
+    width: 400;
+}
+
+.menu-set {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.menu-head {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #999999;
+    text-decoration: none;
+}
+
+.menu-spec {
+    color: #1eb2a6;
+}
+
+.icon-menu {
+    color: #1eb2a6;
+    margin-left: 25px;
+    margin-right: 4px;
+}
+
+.blog-name {
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.blog-des {
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 25px;
+}
+
+/* 7th page end  */
+
+/* 8th page start  */
+
+.boxes-price{
+    margin-bottom: 80px;
+}
+
+.price-box {
+    background-color: white;
+    margin-bottom: 30px;
+    margin-top: 60px;
+    box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09)
+}
+
+.price-head {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+.dollar {
+    font-size: 25px;
+    font-weight: normal;
+    color: #999999;
+}
+
+.amunt {
+    text-align: center;
+    color: #1eb2a6;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.price-des {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+    line-height: 30px;
+}
+
+.price-button {
+    margin-top: 20px;
+    margin-bottom: 35px;
+    border: 2px solid #1eb2a6;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+    margin-left: 80px;
+    border-radius: 4px;
+    box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09)
+}
+
+.price-button-head {
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #1eb2a6;
+
+
+}
+
+.newsletter {
+    background-color: #1eb2a6;
+    padding: 20px;
+
+}
+
+.news {
+    padding-top: 40px;
+    font-size: 25px;
+    color: white;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: baseline;
+    margin: 0;
+
+}
+
+.news-sub {
+    font-size: 18px;
+    color: white;
+    display: flex;
+    margin: 0;
+    justify-content: baseline;
+    padding-bottom: 40px;
+}
+
+
+.email-enter {
+    color: white;
+}
+
+.form-control {
+    background: none;
+    border: none;
+
+}
+
+
+/* footer  */
+
+.bg-special {
+    background-color: white;
+}
+
+.footers {
+    margin-bottom: 80px;
+}
+
+.footer-head {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-top: 80px;
+    font-weight: 800;
+}
+
+.footer-sub {
+    font-size: 15px;
+    text-transform: capitalize;
+    color: #1eb2a6;
+    margin-top: auto;
+}
+
+.footer-para {
+    margin-top: 50px;
+}
+
+.footer-icon {
+    margin-top: 20px;
+    color: #1eb2a6;
+    padding-inline: 5px;
+    font-size: 32px;
+}
+
+.footer-menus{
+    text-transform: capitalize;
+    font-weight: normal;
+    padding-top: 25px;
+}
+
+.foot-menu-head{
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-top: 50px;
+    padding-bottom: 30px
+
+}
+
+
+.foot-menu{
+    color: #999999;
+    font-size: 15px;
+    padding-left: 0;
+
+}
+
+.foot-arr{
+    font-size: 12px;
+    padding-right: 2px;
+    color: #1eb2a6;
+}
+
+
+.recent-post-img{
+    border-radius: 5px;
+    background: url(../images/about.j122pg.webp) no-repeat center;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    margin-left: 12px;
+
+}
+
+.footer-elements{
+    text-decoration: none;
+    font-size: 12px;
+    color:#1eb2a6;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding-right: 5px;
+}
+
+.ft-icon{
+    color: #1eb2a6;
+    margin-right: 4px;
+}
+
+.sub-foot-txt{
+    color: #999999;
+    text-decoration: none;
+    font-weight: 400;
+}

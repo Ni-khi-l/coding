@@ -1,0 +1,26 @@
+.greeting{
+  
+    background-color: bisque;
+}
+img{
+    width: 100%;
+}
+p{
+    background-color: aqua;
+}
+/* defult class for margin
+m,m-1,m-2,m-3,m-4,m-5    margin start - ms,ms-1,ms-2,... margin end me-1,...  margin top,margin bottom  */
+
+
+/* .col-xl{
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.col-xl-3{
+    margin-left: 5px;
+    margin-right: 10px;
+} */
+ 
+.bgcolor{
+    background-color: rgb(51, 12, 102);
+}
